@@ -1,0 +1,30 @@
+# LPDiscordLogger Configuration
+
+# Discord webhook URL
+webhook-url: ""
+
+# Embed color for regular LP commands (decimal format)
+# 5814783 = #58B9FF (blue)
+embed-color-command: 5814783
+
+# Embed color for editor changes (decimal format)
+# 5763719 = #57F287 (green)
+embed-color-editor: 5763719
+
+# Bot username shown in Discord
+webhook-username: "LuckPerms Logger"
+
+# Bot avatar URL (leave empty for default)
+webhook-avatar-url: "https://luckperms.net/logo.png"
+
+# Log commands executed by the console
+log-console: true
+
+# Log commands executed by players
+log-players: true
+
+# Whether to show the full command in the embed
+show-full-command: true
+
+# Max length for node lists in editor embeds before truncating
+max-nodes-listed: 20
