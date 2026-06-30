@@ -1,0 +1,1 @@
+luckperms action logger, logs all commands starting with `Luckperms` or `lp`, and logs any changes from the lp editor to a discord webhook, made for a specific project, you can modify it to your needs etc etc
