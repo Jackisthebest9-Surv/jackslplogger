@@ -9,10 +9,8 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
-      - name: List files
-        run: find . -type f | sort
       - name: Unzip source
-        run: unzip LPDiscordLogger-src.zip
+        run: unzip 'LPDiscordLogger-src (1).zip'
       - name: Build with Maven
         run: cd LPDiscordLogger && mvn package -q
       - name: Upload JAR
