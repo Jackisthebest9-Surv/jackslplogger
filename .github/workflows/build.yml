@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: LPDiscordLogger
-          path: LPDiscordLogger/target/LPDiscordLogger-2.1.0.jar
+          path: LPDiscordLogger/target/LPDiscordLogger-*.jar
